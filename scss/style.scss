@@ -394,13 +394,13 @@ body{
      margin-bottom: 5.1rem;
 }
 
-.footer-icon-link img:hover{
-     background-color: $primary-coral;
-}
-
-.margin{
+.footer-icon-link svg:hover path{
+     fill: $primary-coral;
+ }
+ 
+ .footer-icon-link:not(:last-child){
      margin-right: 1.6rem;
-}
+ }
 
 .footer-right-text {
      font-size: 1.2rem;
